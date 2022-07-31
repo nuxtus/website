@@ -8,13 +8,13 @@
 		</svg>
 		<!-- End Directus Logo -->
 		<!-- Start Nuxt Logo -->
-		<svg id="nuxtLogo" viewBox="0 0 124 124" class="partnerLogo fill-white w-1/4 max-w-xs absolute top-1/2 left-1/4 transform -translate-x-2/3 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg">
+		<svg id="nuxtLogo" viewBox="0 0 124 124" class="partnerLogo fill-white w-1/4 absolute top-1/2 left-1/4 transform -translate-x-2/3 -translate-y-1/2" xmlns="http://www.w3.org/2000/svg">
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M55.7498 27.1551C52.5277 21.615 44.4723 21.6149 41.2502 27.1551L6.13404 87.5346C2.91191 93.0748 6.93956 100 13.3838 100H40.7975C38.0438 97.5934 37.0241 93.4303 39.1079 89.8584L65.7033 44.2694L55.7498 27.1551Z" fill="white"/>
 			<path d="M78.0002 40.3997C80.6668 35.8668 87.3332 35.8668 89.9998 40.3997L119.061 89.801C121.728 94.3339 118.395 100 113.062 100H54.9383C49.6052 100 46.2719 94.3339 48.9385 89.801L78.0002 40.3997Z" fill="white"/>
 		</svg>
 		<!-- End Nuxt Logo -->
 		<!-- Start Tailwind Logo -->
-		<svg id="tailwindLogo" viewBox="0 0 1000 1000" class="partnerLogo fill-white w-1/4 max-w-xs absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/3" xmlns="http://www.w3.org/2000/svg">
+		<svg id="tailwindLogo" viewBox="0 0 1000 1000" class="partnerLogo fill-white w-1/4 absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/3" xmlns="http://www.w3.org/2000/svg">
 			<path d="M489.5 226.499C328 231.632 280 346.999 269 409.499C283.333 386.332 328.5 335.5 395 335.5C472.5 335.5 531.5 422 567.5 449C611.237 481.803 699.123 525.115 814.5 490C906.5 462 949.167 364.332 958.5 317.999C914 378.499 846.5 414.838 763 371.999C705.5 342.499 662.5 221 489.5 226.499Z"/>
 			<path d="M261 500.999C99.5 506.132 51.5 621.499 40.5 683.999C54.8333 660.832 100 610 166.5 610C244 610 303 696.5 339 723.5C382.737 756.303 470.623 799.615 586 764.5C678 736.5 720.667 638.832 730 592.499C685.5 652.999 618 689.338 534.5 646.499C477 616.999 434 495.5 261 500.999Z"/>
 		</svg>
@@ -69,7 +69,7 @@
 	opacity: 0;
 	width: 0;
 
-	animation: nuxtusLogo 3.5s ease-in-out 8s normal forwards;
+	animation: nuxtusLogo 3.5s ease-in-out 6s normal forwards;
 }
 
 @keyframes rotate {
@@ -100,7 +100,6 @@
 		transform: translate(-50%, -50%);
 		opacity: 1;
 		width: 50%;
-		/* min-width: fit-content; */
 	}
 }
 
