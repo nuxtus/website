@@ -26,6 +26,7 @@
 			<text id="NUXTUS" xml:space="preserve" x="-22" y="1444" font-family="Publica Play" font-size="288" fill="#ffffff">NUXTUS</text>
 		</svg>
 		<!-- End Nuxtus Logo -->
+		<div data-aos="fade-in" class="text-2xl font-semibold text-red-500">HELLO THERE!</div>
 	</main>
 </template>
 

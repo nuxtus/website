@@ -21,6 +21,9 @@ export default defineNuxtConfig({
 		// Options
 		jit: true,
 	},
+	css: [
+		'aos/dist/aos.css'
+	],
 	directus: {},
 	nuxtus: {
 		authDirectus: true,

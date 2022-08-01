@@ -1,2 +1,2 @@
-☐ Tailwind logo doesn't move up far enough when height > width
+✔ Tailwind logo doesn't move up far enough when height > width @done(22-08-01 15:42)
 ☐ Logos are too big on larger screens (set max width)
