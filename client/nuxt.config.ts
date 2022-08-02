@@ -9,7 +9,7 @@ export default defineNuxtConfig({
 				/* module options */
 			},
 		],
-		"@nuxtjs/tailwindcss",
+		"@nuxtjs/tailwindcss"
 	],
 	modules: ["nuxt-directus", "@nuxtus/nuxt-module"],
 	googleFonts: {
