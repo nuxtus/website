@@ -17,13 +17,13 @@
         <dl class="mt-10 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 sm:gap-y-10 lg:mt-0 lg:col-span-2">
           <div v-for="feature in features" :key="feature.name">
             <dt>
-              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+              <div class="flex items-center justify-center h-12 w-12 rounded-md bg-feature-green text-white">
                 <component :is="feature.icon" class="h-6 w-6" aria-hidden="true" />
               </div>
               <p class="mt-5 text-lg leading-6 font-medium text-gray-900">{{ feature.name }}</p>
             </dt>
             <dd class="mt-2 text-base text-gray-500">
-              {{ feature.description }}
+              <div v-html="feature.description"></div>
             </dd>
           </div>
         </dl>
@@ -33,31 +33,32 @@
 </template>
 
 <script setup>
-import { GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/vue/outline'
+import { ArrowsExpandIcon, DocumentTextIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/vue/outline'
+import { FireIcon } from '@heroicons/vue/solid';
 
 const features = [
   {
-    name: 'Competitive rates',
-    description: 'Consequuntur omnis dicta cumque, inventore atque ab dolores aspernatur tempora ab doloremque.',
-    icon: GlobeAltIcon,
+    name: 'Flexible',
+    description: 'Use as a pre-configured boilerplate starter or add only the bits you need to your existing project.',
+    icon: ArrowsExpandIcon,
   },
   {
-    name: 'No hidden fees',
+    name: 'Easy to get started',
     description:
-      'Corporis quisquam nostrum nulla veniam recusandae temporibus aperiam officia incidunt at distinctio ratione.',
-    icon: ScaleIcon,
+      'Simply <span class="bg-gray-100 p-1 text-black">npx create-nuxtus app-name</span> to get a fully operational Nuxtus project with Directus server and Nuxt client (with Tailwind CSS).',
+    icon: FireIcon,
   },
   {
-    name: 'Instant transfers',
+    name: 'Automatic pages from collections',
     description:
-      'Omnis, illo delectus? Libero, possimus nulla nemo tenetur adipisci repellat dolore eligendi velit doloribus mollitia.',
+      'Create a Collection in Directus and a page is automatically created in your Nuxt frontend.',
     icon: LightningBoltIcon,
   },
   {
-    name: 'Reminder emails',
+    name: 'Fully typed',
     description:
-      'Veniam necessitatibus reiciendis fugit explicabo dolorem nihil et omnis assumenda odit? Quisquam unde accusantium.',
-    icon: MailIcon,
+      'All collection objects are fully typed automatically. And always up to date as you add new fields in Directus.',
+    icon: DocumentTextIcon,
   },
 ]
 </script>

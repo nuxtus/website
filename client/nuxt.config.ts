@@ -19,7 +19,7 @@ export default defineNuxtConfig({
 	},
 	tailwindcss: {
 		// Options
-		jit: true,
+		jit: true
 	},
 	css: [
 		'aos/dist/aos.css'

@@ -15,6 +15,10 @@ module.exports = {
 			fontFamily: {
 				sans: ["Inter var", ...defaultTheme.fontFamily.sans],
 			},
+			colors: {
+				'feature-green': '#00dc82',
+				'feature-purple': '#6644ff',
+			}
 		},
 	},
 	plugins: [],
