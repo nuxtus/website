@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 		],
 		"@nuxtjs/tailwindcss"
 	],
-	modules: ["nuxt-directus", "@nuxtus/nuxt-module"],
+	modules: ["nuxt-directus", "@nuxtus/nuxt-module", "@nuxt/content"],
 	googleFonts: {
 		families: {
 			Inter: true,
@@ -32,4 +32,18 @@ export default defineNuxtConfig({
 		directusEmail: "",
 		directusPassword: "",
 	},
+	content: {
+		// https://content.nuxtjs.org/api/configuration
+		sources: [
+			'docs'
+		],
+		highlight: {
+			theme: 'dracula'
+		}
+	},
+	nitro: {
+		prerender: {
+		  routes: ['/sitemap.xml']
+		}
+	}
 })
