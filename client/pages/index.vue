@@ -28,7 +28,7 @@
 			</svg>
 			<!-- End Nuxtus Logo -->
 		</header>		
-		<nav-bar data-aos="slide-left" class="sticky top-0 right-0 z-100" />
+		<nav-bar data-aos="slide-left" class="sticky top-0 right-0 z-50" />
 		<main class="mt-36 xl:mt-24 px-12 md:px-24 relative">
 			<div data-aos="slide-right" class="bg-white block-padding w-4/5 max-w-xl">
 				<h2 class="tracking-tight font-extrabold text-gray-900 text-4xl md:text-6xl">Boilerplate and utilities to make working with Directus and Nuxt easy!</h2>	
@@ -39,11 +39,11 @@
 			<div data-aos="flip-up" class="bg-white block-padding w-2/3 mt-24 ml-auto mr-auto grid gap-4 grid-cols-1 lg:grid-cols-2">
 				<div>
 					<h3 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl mb-4">Get started</h3>
-					<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">npx create-nuxtus app-name</button>
+					<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg lg:text-base xl:text-lg font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">npx create-nuxtus app-name</button>
 				</div>
 				<div>
 					<h3 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl mb-4">Get learning</h3>
-					<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg font-medium rounded-md shadow-sm text-white bg-feature-green hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Read the documentation</button>
+					<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg lg:text-base xl:text-lg font-medium rounded-md shadow-sm text-white bg-feature-green hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Read the documentation</button>
 				</div>
 			</div>
 		</main>

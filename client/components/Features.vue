@@ -38,17 +38,6 @@ import { FireIcon } from '@heroicons/vue/solid';
 
 const features = [
   {
-    name: 'Flexible',
-    description: 'Use as a pre-configured boilerplate starter or add only the bits you need to your existing project.',
-    icon: ArrowsExpandIcon,
-  },
-  {
-    name: 'Easy to get started',
-    description:
-      'Simply <span class="bg-gray-100 p-1 text-black">npx create-nuxtus app-name</span> to get a fully operational Nuxtus project with Directus server and Nuxt client (with Tailwind CSS).',
-    icon: FireIcon,
-  },
-  {
     name: 'Automatic pages from collections',
     description:
       'Create a Collection in Directus and a page is automatically created in your Nuxt frontend.',
@@ -59,6 +48,17 @@ const features = [
     description:
       'All collection objects are fully typed automatically. And always up to date as you add new fields in Directus.',
     icon: DocumentTextIcon,
+  },
+  {
+    name: 'Flexible',
+    description: 'Use as a pre-configured boilerplate starter or add only the bits you need to your existing project.',
+    icon: ArrowsExpandIcon,
+  },
+  {
+    name: 'Easy to get started',
+    description:
+      'Simply <span class="bg-gray-100 p-1 text-black">npx create-nuxtus app-name</span> to get a fully operational Nuxtus project with Directus server and Nuxt client (with Tailwind CSS).',
+    icon: FireIcon,
   },
 ]
 </script>
