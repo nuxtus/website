@@ -17,6 +17,7 @@ Replace app-name with the name of your project.
 
 ### Existing project
 
-TODO: Add instructions for existing projects.
+1. [Install Directus Extention](directus-extension.md)
+2. [Install Nuxt Module](nuxt-module.md)
 
 

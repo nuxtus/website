@@ -1,3 +1,5 @@
 * [Getting started](/)
 * [Using Nuxtus](using-nuxtus.md)
 * [CLI](/cli)
+* [Directus extension](directus-extension.md)
+* [Nuxt module](nuxt-module.md)
