@@ -22,7 +22,8 @@ export default defineNuxtConfig({
 		jit: true
 	},
 	css: [
-		'aos/dist/aos.css'
+		'aos/dist/aos.css',
+		'~/assets/fonts/style.css'
 	],
 	directus: {},
 	nuxtus: {
