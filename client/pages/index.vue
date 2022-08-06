@@ -43,7 +43,7 @@
 				</div>
 				<div>
 					<h3 class="text-2xl font-extrabold tracking-tight text-gray-900 sm:text-3xl mb-4">Get learning</h3>
-					<button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg lg:text-base xl:text-lg font-medium rounded-md shadow-sm text-white bg-feature-green hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Read the documentation</button>
+					<a href="https://docs.nuxtus.com" target="_blank"><button type="button" class="inline-flex items-center px-6 py-3 border border-transparent text-lg lg:text-base xl:text-lg font-medium rounded-md shadow-sm text-white bg-feature-green hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Read the documentation</button></a>
 				</div>
 			</div>
 		</main>
