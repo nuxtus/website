@@ -11,7 +11,7 @@ Calls the Nuxtus /api/directus/field endpoint when fields are created, updated o
 
 Currently Directus requires that you manually install extensions.
 
-Clone the repository:
+Clone the repository and build:
 
 ```bash
 git clone git@github.com:nuxtus/hook.git nuxtus-hook

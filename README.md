@@ -11,5 +11,5 @@ Documentation is managed using [Docsify](https://docsify.js.org/).
 To run a development server:
 
 ```bash
-docsify server ./docs
+docsify serve ./docs
 ```
