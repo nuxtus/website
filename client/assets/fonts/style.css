@@ -4,5 +4,5 @@
     font-family: 'Publica Play Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Publica Play Regular'), url('FaceType - PublicaPlay-Regular.woff') format('woff');
+    src: local('Publica Play Regular'), url('/fonts/FaceType - PublicaPlay-Regular.woff') format('woff');
     }
