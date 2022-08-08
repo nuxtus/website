@@ -80,3 +80,29 @@ To make use of the interface file in your Nuxt pages and components:
 ```
 
 > Replace CollectionName with the name of your collection.
+
+## Development
+
+To watch for changes during development:
+
+```bash
+$ npm start <command>
+```
+
+For more details on [Nuxtus CLI](https://github.com/nuxtus/cli) click [here](https://github.com/nuxtus/cli).
+
+### Package
+
+To build the JS:
+
+```bash
+$ npm run build
+```
+
+### Testing
+
+Using [Vitest](https://vitest.dev/). 
+
+```bash
+$ npm run test
+```

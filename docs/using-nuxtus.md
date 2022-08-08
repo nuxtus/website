@@ -17,7 +17,7 @@ If you added Nuxtus to an existing project, you will need to continue using your
 By default Nuxtus will automatically create Nuxt pages for you when you create a Directus `collection` thanks to the [Nuxtus Directus plugin](https://github.com/nuxtus/hook) and the [Nuxtus Nuxt Module](https://github.com/nuxtus/nuxt-module).
 
 1. Ensure that both Directus and Nuxt are running.
-2. By default the Directus credentials are:
+2. [Login to Directus](http://0.0.0.0:8055/admin/login). By default the Directus credentials are:
 ---
 User: admin@example.com  
 Password: password
@@ -50,6 +50,8 @@ In this example we have created a `posts` collection in Directus:
   });
 </script>
 ```
+
+> Because OpenAPI schemas may have invalid TypeScript characters as names, the square brackets are a safe way to access every property.
 
 Once created you can edit the generated `.vue` files to customise the data retrieved using [nuxt-directus](https://nuxt-directus.netlify.app/) such as [filters](https://nuxt-directus.netlify.app/usage/useDirectusItems). 
 
