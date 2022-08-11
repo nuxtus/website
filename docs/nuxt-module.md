@@ -19,7 +19,7 @@ In your nuxt.config.ts file add the modules:
 {
   modules: [
     'nuxt-directus',
-    '@nuxtjs/nuxt-module',
+    '@nuxtus/nuxt-module',
   ],
 }
 ```
@@ -46,7 +46,7 @@ The nuxt module can be configured using the `nuxtus` property within `nuxt.confi
 {
   modules: [
     'nuxt-directus',
-    '@nuxtjs/nuxt-module',
+    '@nuxtus/nuxt-module',
   ],
   nuxtus: {
     // nuxtus options here
