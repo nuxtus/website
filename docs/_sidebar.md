@@ -4,3 +4,4 @@
 * [Directus extension](directus-extension.md)
 * [Nuxt module](nuxt-module.md)
 * [Deployment](deployment.md)
+* [Upgrade](upgrade.md)

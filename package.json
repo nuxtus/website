@@ -26,7 +26,8 @@
 	"scripts": {
 		"client": "cd client && npm run dev -- -o",
 		"server": "cd server && npx directus start",
-		"start": "concurrently \"npm run client\" \"npm run server\""
+		"start": "concurrently \"npm run client\" \"npm run server\"",
+		"docs": "docsify serve ./docs"
 	},
 	"devDependencies": {
 		"@semantic-release/changelog": "^6.0.1",
@@ -66,8 +67,5 @@
 			"@semantic-release/github"
 		]
 	},
-	"dependencies": {
-		"@headlessui/vue": "^1.6.7",
-		"@heroicons/vue": "^1.0.6"
-	}
+	"dependencies": {}
 }
