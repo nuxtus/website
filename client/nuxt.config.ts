@@ -25,12 +25,23 @@ export default defineNuxtConfig({
 		'aos/dist/aos.css',
 		'~/assets/fonts/style.css'
 	],
-	directus: {},
+	// directus: {
+
+	// },
 	nuxtus: {
 		authDirectus: true,
 	},
-	publicRuntimeConfig: {
-		directusEmail: "",
-		directusPassword: "",
+	// publicRuntimeConfig: {
+	// 	directusEmail: "",
+	// 	directusPassword: "",
+	// },
+	runtimeConfig: {
+		public: {
+			directusEmail: "",
+			directusPassword: "",
+		},
+		directus: {
+			url: "",
+		},
 	},
 })
