@@ -11,6 +11,9 @@ export default defineNuxtConfig({
 		],
 		"@nuxtjs/tailwindcss"
 	],
+	build: {
+		transpile: ['@heroicons/vue']
+	},
 	modules: ["nuxt-directus", "@nuxtus/nuxt-module"],
 	googleFonts: {
 		families: {
