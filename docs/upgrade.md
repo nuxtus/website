@@ -21,7 +21,8 @@ npm run cli bootstrap
 
 1. [Update Nuxt](#nuxt-update) to `3.0.0-rc.8`
 2. [Update Directus](#directus-update) to `9.15.1` (optional)
-3. Edit `client/nuxt.config.ts` and add:
+3. In package.json upgrade `nuxt-directus` to `^2.3.0` and `npm install`
+4. Edit `client/nuxt.config.ts` and add:
 
 ```typescript
 build: {

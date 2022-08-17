@@ -22,29 +22,18 @@ export default defineNuxtConfig({
 	},
 	tailwindcss: {
 		// Options
-		jit: true
+		// jit: true
 	},
 	css: [
 		'aos/dist/aos.css',
 		'~/assets/fonts/style.css'
 	],
-	// directus: {
-
-	// },
+	directus: {},
 	nuxtus: {
 		authDirectus: true,
 	},
-	// publicRuntimeConfig: {
-	// 	directusEmail: "",
-	// 	directusPassword: "",
-	// },
-	runtimeConfig: {
-		public: {
-			directusEmail: "",
-			directusPassword: "",
-		},
-		directus: {
-			url: "",
-		},
+	publicRuntimeConfig: {
+		directusEmail: "",
+		directusPassword: "",
 	},
 })
