@@ -14,13 +14,14 @@ npm i --save-dev @nuxtus/cli
 
 ## Configuration
 
-In order for Nuxtus CLI to communicate with Directus you need to provide connection credentials. Again, this is done automatically for you if you are using the biolerplate but if not please continue with the instructions below.
+In order for Nuxtus CLI to communicate with Directus you need to provide connection credentials. Again, this is done automatically for you if you are using the boilerplate but if not please continue with the instructions below.
 
 Create a `.env` file in the root of your **Nuxt project** and add the following lines:
 
 ```env
 # URL of your Directus instance
 DIRECTUS_URL=http://localhost:8055
+
 # Directus login credentials
 NUXT_PUBLIC_DIRECTUS_EMAIL=admin@example.com
 NUXT_PUBLIC_DIRECTUS_PASSWORD=password
