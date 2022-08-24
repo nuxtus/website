@@ -23,6 +23,7 @@ User: admin@example.com
 Password: password
 ---
 3. Create a Directus `collection` [as normal](https://docs.directus.io/configuration/data-model/#creating-a-collection).
+4. Nuxt pages will be created in `client/pages` and available at the Nuxtus URL `http://localhost:3000/<collectionName>`. 
 
 > You can manually create pages from existing collections using the [Nuxtus CLI](CLI/)
 
@@ -33,6 +34,8 @@ Nuxtus will create a folder in your Nuxt `/pages/` folder with the name of your 
 Normal collections will generated with 2 files (a listing or index page and a display or details page), while singletons will contain one (a page displaying the singleton).
 
 Regardless of the collection type, pages created by Nuxtus fetch Directus data in the Nuxt `setup` lifecycle hook using [nuxt-directus](https://nuxt-directus.netlify.app/) for Directus API interaction.
+
+> If you have the Directus API permissions set to public you can set `authDirectus` to false in `nuxt.config.ts`
 
 In this example we have created a `posts` collection in Directus:
 
