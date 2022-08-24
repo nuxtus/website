@@ -34,6 +34,8 @@ Normal collections will generated with 2 files (a listing or index page and a di
 
 Regardless of the collection type, pages created by Nuxtus fetch Directus data in the Nuxt `setup` lifecycle hook using [nuxt-directus](https://nuxt-directus.netlify.app/) for Directus API interaction.
 
+> If you have the Directus API permissions set to public you can set `authDirectus` to false in `nuxt.config.ts`
+
 In this example we have created a `posts` collection in Directus:
 
 ```typescript
