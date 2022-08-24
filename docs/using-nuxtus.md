@@ -23,6 +23,7 @@ User: admin@example.com
 Password: password
 ---
 3. Create a Directus `collection` [as normal](https://docs.directus.io/configuration/data-model/#creating-a-collection).
+4. Nuxt pages will be created in `client/pages` and available at the Nuxtus URL `http://localhost:3000/<collectionName>`. 
 
 > You can manually create pages from existing collections using the [Nuxtus CLI](CLI/)
 
