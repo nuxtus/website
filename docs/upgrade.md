@@ -29,3 +29,8 @@ build: {
 	transpile: ['@heroicons/vue']
 }
 ```
+
+## 1.4.0 > 1.5.0
+
+1. [Update Directus](#directus-update) to `9.16.1`
+2. Update @nuxtus/cli to 1.3.0 in `client/package.json` and `npm install`
