@@ -47,6 +47,16 @@ For more details on a particular command:
 nuxtus create -h # For help with the create command
 ```
 
+## Changing to static token authentication
+
+To change to [static token authentication](https://docs.directus.io/reference/authentication.html) you can run the following command:
+
+```bash
+nuxtus token
+```
+
+This will generate a unique token, save it to the current user in Directus and update you `.env` file to use this token instead of a user name and password.
+
 ## Creating pages
 
 The Nuxtus CLI will read all the Collections in your Directus instance and can create Nuxt pages for each.
@@ -82,7 +92,7 @@ To make use of the interface file in your Nuxt pages and components:
 
 > Replace CollectionName with the name of your collection.
 
-## Development
+## CLI packaage development
 
 To watch for changes during development:
 
