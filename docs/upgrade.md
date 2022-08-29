@@ -38,3 +38,4 @@ build: {
 
 1. Update @nuxtus/cli to 1.3.0 in `client/package.json` and `npm install`
 2. Update @nuxtus/nuxt-module to 1.0.4 in `client/package.json` and `npm install`
+3. Update @nuxtus/directus-extension-nuxtus-hook to 1.2.1 in `server/package.json` and `npm install`
