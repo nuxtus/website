@@ -1,6 +1,6 @@
 # Upgrade
 
-Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components.
+Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components. You can find your current version of Nuxtus 
 
 ## Nuxt update
 
