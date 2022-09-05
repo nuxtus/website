@@ -3,5 +3,6 @@
 * [CLI](/cli)
 * [Directus extension](directus-extension.md)
 * [Nuxt module](nuxt-module.md)
+* [Directus Cloud](directus-cloud.md)
 * [Deployment](deployment.md)
 * [Upgrade](upgrade.md)
