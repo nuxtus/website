@@ -36,9 +36,6 @@ Your project will contain 2 folders server (Directus) and client (Nuxt).
 > If Nuxt is not using `http://localhost:3000` update NUXT_SERVER in the `server/.env` file.
 
 You can access the Directus admin via [http://localhost:8055"](http://localhost:8055).
-?> **Default credentials**
-?> Email: admin@example.com
-?> Password: password
 
 ### Nuxt
 
