@@ -17,11 +17,7 @@ If you added Nuxtus to an existing project, you will need to continue using your
 By default Nuxtus will automatically create Nuxt pages for you when you create a Directus `collection` thanks to the [Nuxtus Directus plugin](https://github.com/nuxtus/hook) and the [Nuxtus Nuxt Module](https://github.com/nuxtus/nuxt-module).
 
 1. Ensure that both Directus and Nuxt are running.
-2. [Login to Directus](http://0.0.0.0:8055/admin/login). By default the Directus credentials are:
----
-User: admin@example.com  
-Password: password
----
+2. [Login to Directus](http://0.0.0.0:8055/admin/login) using the email/password you supplied during creation.
 3. Create a Directus `collection` [as normal](https://docs.directus.io/configuration/data-model/#creating-a-collection).
 4. Nuxt pages will be created in `client/pages` and available at the Nuxtus URL `http://localhost:3000/<collectionName>`. 
 

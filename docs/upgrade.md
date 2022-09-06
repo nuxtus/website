@@ -43,3 +43,9 @@ build: {
 ## 1.5.1 > 1.5.2
 
 1. Update @nuxtus/cli to 1.4.0 in `client/package.json` and `npm install`
+
+## 1.5.2 > 1.6.0
+
+1. Update @nuxtus/nuxt-module to 1.0.5 in `client/package.json`
+2. Update "nuxt-directus" to "^3.0.3" in `client/package.json`
+3. `npm install`
