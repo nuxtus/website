@@ -46,7 +46,6 @@ If you already have a Nuxtus project and want to switch to using Directus Cloud 
 
 1. Edit `/client/.env` and update the `DIRECTUS_URL` to your `Directus Cloud` project URL and the email/password to yours.
 > Encase the password in double quotes ("'s) to avoid special characters not being sent
-1. In the `client/` folder install `@nuxtus/nuxt-localtunnel` Nuxt module `npm i @nuxtus/nuxt-localtunnel`
-2. Open `client/nuxt.config.ts` and add `@nuxtus/nuxt-localtunnel` to the `modules` array.
+2. [Install the `@nuxtus/nuxt-localtunnel`](localtunnel.md#installation)
 3. Start Nuxt in development mode `npm run dev`. Make note of the external URL provided.
 4. Continue with the [Configuring Directus](#configuring-directus) steps above.
