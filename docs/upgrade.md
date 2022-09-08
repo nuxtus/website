@@ -48,4 +48,10 @@ build: {
 
 1. Update @nuxtus/nuxt-module to 1.0.5 in `client/package.json`
 2. Update "nuxt-directus" to "^3.0.3" in `client/package.json`
-3. `npm install`
+3. Update Nuxt to 3.0.0-rc.9 in `client/package.json`
+4. `npm install`
+
+## 1.6.0 > 1.7.0
+
+1. Update @nuxtus/nuxt-module to 1.2.0 in `client/package.json` and `npm install`
+2. [Download the latest @nuxtus/hook](directus-extension.md) and replace your current version in `/server/extensions/hooks/directus-extension-nuxtus-hook/`
