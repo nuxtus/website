@@ -1,6 +1,8 @@
 # Upgrade
 
-Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components. You can find your current version of Nuxtus 
+Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components. You can find your current version of Nuxtus by looking in the `.version` file in the root of your project.
+
+> Always remember to manually update the version number when you do manual updates so you know which version you are on.
 
 ## Nuxt update
 
