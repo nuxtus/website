@@ -57,3 +57,11 @@ build: {
 
 1. Update @nuxtus/nuxt-module to 1.2.0 in `client/package.json` and `npm install`
 2. [Download the latest @nuxtus/hook](directus-extension.md) and replace your current version in `/server/extensions/hooks/directus-extension-nuxtus-hook/`
+
+## 1.7.0 > ????
+
+1. Update @nuxtus/nuxt-module to "1.2.0" in `client/package.json`
+2. Update @nuxtus/cli to "1.5.0" in `client/package.json`
+3. `npm install` in `client/`
+4. [Download the latest @nuxtus/hook](directus-extension.md) and replace your current version in `/server/extensions/hooks/directus-extension-nuxtus-hook/`
+5. Clear all nuxt caches `npx nuxi-edge@latest cleanup`
