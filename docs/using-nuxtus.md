@@ -55,3 +55,9 @@ In this example we have created a `posts` collection in Directus:
 Once created you can edit the generated `.vue` files to customise the data retrieved using [nuxt-directus](https://nuxt-directus.netlify.app/) such as [filters](https://nuxt-directus.netlify.app/usage/useDirectusItems). 
 
 [Tailwind CSS](https://tailwindcss.com) is pre-installed so you can start styling pages straight out of the box.
+
+## Deleting collections
+
+Nuxtus will automatically remove any Nuxt pages it has created if you delete a corresponding collection in Directus.
+
+You can also manually delete pages simply by deleting the folder in `/client/pages/` corresponding to the collection you wish to delete.

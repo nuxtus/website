@@ -1,6 +1,8 @@
 # Upgrade
 
-Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components. You can find your current version of Nuxtus 
+Once deployed you can upgrade to the latest version of Nuxtus by individually updating the associated components. You can find your current version of Nuxtus by looking in the `.version` file in the root of your project.
+
+> Always remember to manually update the version number when you do manual updates so you know which version you are on.
 
 ## Nuxt update
 
@@ -55,3 +57,24 @@ build: {
 
 1. Update @nuxtus/nuxt-module to 1.2.0 in `client/package.json` and `npm install`
 2. [Download the latest @nuxtus/hook](directus-extension.md) and replace your current version in `/server/extensions/hooks/directus-extension-nuxtus-hook/`
+
+## 1.7.0 > 1.8.0
+
+1. Update @nuxtus/nuxt-module to "1.2.1" in `client/package.json`
+2. Update @nuxtus/cli to "1.5.0" in `client/package.json`
+3. `npm install` in `client/`
+4. [Download the latest @nuxtus/hook](directus-extension.md) and replace your current version in `/server/extensions/hooks/directus-extension-nuxtus-hook/`
+5. Clear all nuxt caches `npx nuxi-edge@latest cleanup`
+
+## 1.8.0 > 1.8.1
+
+1. Update @nuxtjs/google-fonts to "2.0.0" in `client/package.json`
+2. In `nuxt.config.ts` remove google-fonts module, so it just looks like this:
+
+```ts
+buildModules: [
+		"@nuxtjs/tailwindcss",
+	],
+```
+3. Update Nuxt to 3rc13 in `client/package.json`
+4. Update "nuxt-directus" to "^3.2.1" in `client/package.json`
