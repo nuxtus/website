@@ -76,3 +76,5 @@ buildModules: [
 		"@nuxtjs/tailwindcss",
 	],
 ```
+3. Update Nuxt to 3rc13 in `client/package.json`
+4. Update "nuxt-directus" to "^3.2.1" in `client/package.json`
