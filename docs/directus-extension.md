@@ -9,16 +9,12 @@ Calls the Nuxtus /api/directus/field endpoint when fields are created, updated o
 
 ## Installation
 
-Currently Directus requires that you manually install extensions.
+You can install the extension directly from the npm package.
 
-Clone the repository and build:
+From the `/server/` folder:
 
 ```bash
-git clone git@github.com:nuxtus/hook.git nuxtus-hook
-cd nuxtus-hook
-npm run build
+npm install @nuxtus/directus-extension-nuxtus-hook
 ```
-
-Place `/dist/index.js` in Directus project `/extensions/hooks/nuxtus-hook/`
 
 If you haven't already, install the [Nuxtus Nuxt Module](nuxt-module.md) to configure the Nuxt endpoints that will be called by this extension.

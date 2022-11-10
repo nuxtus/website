@@ -30,8 +30,10 @@ npm run dev
 Build the application for production:
 
 ```bash
-npm run build
+npm run generate
 ```
+
+Drag and drop `client/.output/public` into netlify (bottom of deploy page).
 
 Locally preview production build:
 
