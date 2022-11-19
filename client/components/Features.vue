@@ -33,15 +33,15 @@
 </template>
 
 <script setup>
-import { ArrowsExpandIcon, DocumentTextIcon, GlobeAltIcon, LightningBoltIcon, MailIcon, ScaleIcon } from '@heroicons/vue/outline'
-import { FireIcon } from '@heroicons/vue/solid';
+import { ArrowsPointingOutIcon, DocumentTextIcon, BoltIcon } from '@heroicons/vue/24/outline'
+import { FireIcon } from '@heroicons/vue/24/solid';
 
 const features = [
   {
     name: 'Automatic pages from collections',
     description:
       'Create a Collection in Directus and a page is automatically created in your Nuxt frontend.',
-    icon: LightningBoltIcon,
+    icon: BoltIcon,
   },
   {
     name: 'Fully typed',
@@ -52,7 +52,7 @@ const features = [
   {
     name: 'Flexible',
     description: 'Use as a pre-configured boilerplate starter or add only the bits you need to your existing project.',
-    icon: ArrowsExpandIcon,
+    icon: ArrowsPointingOutIcon,
   },
   {
     name: 'Easy to get started',
